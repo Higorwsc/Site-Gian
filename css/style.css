@@ -244,7 +244,7 @@ h1, h2, h3{
     object-fit: cover;
 }
 .insta-grid > div:hover{
-    transform: scale(0.9);
+    transform: scale(1.06);
 }
 
 /* footer */
@@ -399,6 +399,7 @@ h1, h2, h3{
 
 
 
+
 }
 
 @media(min-width: 992px){
@@ -447,6 +448,8 @@ h1, h2, h3{
       .portfolio-grid > div:hover{
         transform: scale(1.19);
     }
+
+
 
     /*
     .portfolio-grid > div:nth-child(2){
