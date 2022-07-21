@@ -178,7 +178,7 @@ h1, h2, h3{
     transition: var(--transition);
 }
 .portfolio-grid > div:hover{
-    transform: scale(0.9);
+    transform: scale(1.05);
 }
 
 /* contact */
@@ -346,7 +346,9 @@ h1, h2, h3{
         font-size: 80%;  
         color: black;
         
-      }
+      }.portfolio-grid > div:hover{
+        transform: scale(1.03);
+    }
 
 }
 
@@ -383,7 +385,9 @@ h1, h2, h3{
         font-size: 80%;  
         color: black;
         
-      }
+      }.portfolio-grid > div:hover{
+        transform: scale(1.05);
+    }
 
 }
 
@@ -406,6 +410,10 @@ h1, h2, h3{
     .insta-grid > div{
         height: 100%;
     }
+
+    .portfolio-grid > div:hover{
+        transform: scale(1.05);
+    }
 }
 
 @media(min-width: 1200px){
@@ -423,6 +431,10 @@ h1, h2, h3{
         color: black;
         
       }
+
+      .portfolio-grid > div:hover{
+        transform: scale(1.19);
+    }
 
     /*
     .portfolio-grid > div:nth-child(2){
