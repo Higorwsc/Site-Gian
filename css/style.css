@@ -285,6 +285,15 @@ h1, h2, h3{
     border-radius: 50%;
 }
 
+.footer__copy {
+    display: block;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 80%;  
+    color: black;
+    
+  }
+
 
 /* Media Queries */
 
@@ -294,6 +303,15 @@ h1, h2, h3{
         column-gap: 3rem;
         row-gap: 0;
     }
+
+    .footer__copy {
+        display: block;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 80%;  
+        color: black;
+        
+      }
 }
 @media(min-width: 576px){
     .title h2{
@@ -320,6 +338,15 @@ h1, h2, h3{
     .footer-content ul{
         flex-direction: row;
     }
+
+    .footer__copy {
+        display: block;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 80%;  
+        color: black;
+        
+      }
 
 }
 
@@ -348,22 +375,56 @@ h1, h2, h3{
     .insta-grid{
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .footer__copy {
+        display: block;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 80%;  
+        color: black;
+        
+      }
+
 }
 
 @media(min-width: 992px){
     .insta-grid{
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         
-    }
+    } 
+
+    .footer__copy {
+        display: block;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 80%;  
+        color: black;
+        
+      }
+
+
     .insta-grid > div{
-        height: 250px;
+        height: 100%;
     }
 }
 
 @media(min-width: 1200px){
-    .portfolio-grid{
-        grid-template-columns: repeat(2, 1fr);
-    } /*
+    .portfolio-grid, .insta-grid{
+        grid-template-columns: repeat(3, 1fr);
+
+        height: 100%;
+    } 
+    
+    .footer__copy {
+        display: block;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 80%;  
+        color: black;
+        
+      }
+
+    /*
     .portfolio-grid > div:nth-child(2){
         grid-column: 2 / 4;
     }
@@ -371,4 +432,3 @@ h1, h2, h3{
         grid-column: 1 / 3;
     } */
 }
-
